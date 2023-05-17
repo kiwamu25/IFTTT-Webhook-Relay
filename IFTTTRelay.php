@@ -72,7 +72,7 @@ $json_data = json_encode($jdata, JSON_UNESCAPED_UNICODE);
 
 echo $json_data;
 //IFTTTのWebhookのURLを指定 specify the URL of IFTTT's Webhook
-$url = "https://maker.ifttt.com/trigger/position/with/key/***************";
+$url = "https://maker.ifttt.com/trigger/*EventName*/with/key/***************";
 
 //curlでデータを送信 send data with curl
 $curl = curl_init();
